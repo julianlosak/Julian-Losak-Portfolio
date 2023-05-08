@@ -1,0 +1,19 @@
+.header{
+    text-align: left;
+    background-color: rgb(237, 237, 113);
+}
+
+.header h1{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header ul{
+    text-align: center;
+    list-style: none;
+}
+
+.header li{
+    display: inline;
+}
