@@ -17,6 +17,7 @@
 
 .header li{
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #selfie {
@@ -37,6 +38,11 @@
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
+
+.about p {
+    font-family: serif;
+}
+
 .work {
 background-color: rgb(98, 196, 201);
 font-family: monospace;
@@ -50,11 +56,25 @@ display: flex;
     text-decoration: underline;
 }
 .work li{
+    display: inline;
     list-style: none;
+}
+.box{
+    position: relative;
+}
+
+.text-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #band {
-    width: 70%;
+    width: 60%;
 }
 
 #landscape {
