@@ -17,3 +17,13 @@
 .header li{
     display: inline;
 }
+
+.selfie img {
+    margin-left: 40%;
+    width: 300px;
+}
+
+.band {
+    margin-left: 40%;
+    width: 300px;
+}
