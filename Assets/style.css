@@ -63,18 +63,29 @@ display: flex;
     position: relative;
 }
 
+.text-box{
+    width: 10px;
+    
+}
+
+.text-box h2{
+    text-align: center;
+    color: rgb(193, 31, 31);
+    text-decoration-color: rgb(98, 196, 201);
+}
+
 .text-box {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgb(168, 45, 45);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    bottom: 35%;
+    right: 230px;
+    background-color: rgb(237, 237, 113);
+    color: rgb(20, 13, 13);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #band {
-    width: 60%;
+    width: 100%;
 }
 
 #landscape {
