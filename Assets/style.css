@@ -51,15 +51,11 @@ display: flex;
 }
 
 .work h2{
-    font-size: 45px;
+    font-size: 50px;
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
-.work #portrait #landscape #band{
-    display: inline;
-    list-style: none;
-    size: 2%;
-}
+
 .box{
     position: relative;
 }
@@ -85,14 +81,42 @@ display: flex;
     padding-right: 10px;
 }
 
+.box-two{
+    position: relative;
+}
+
+.text-box-2{
+    width: 10px;
+    
+}
+
+.text-box-2 h2{
+    text-align: center;
+    color: rgb(193, 31, 31);
+    text-decoration-color: rgb(98, 196, 201);
+}
+
+.text-box-2 {
+    position: absolute;
+    top: 80%;
+    left: 400px;
+    background-color: rgb(237, 237, 113);
+    color: rgb(20, 13, 13);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #band {
-    width: 2%;
+    width: 250%;
+    position: relative;
 }
 
 #landscape {
-    width: 2%;
+    width: 100%;
+    position: relative;
 }
 
 #portrait {
-    width: 2%;
+    width: 55%;
+    position: relative;
 }
