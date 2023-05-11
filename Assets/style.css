@@ -55,9 +55,10 @@ display: flex;
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
-.work li{
+.work #portrait #landscape #band{
     display: inline;
     list-style: none;
+    size: 2%;
 }
 .box{
     position: relative;
@@ -85,13 +86,13 @@ display: flex;
 }
 
 #band {
-    width: 100%;
+    width: 2%;
 }
 
 #landscape {
-    width: 50%;
+    width: 2%;
 }
 
 #portrait {
-    width: 30%;
+    width: 2%;
 }
